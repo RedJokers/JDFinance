@@ -10,7 +10,7 @@
                 <ul>
                     <li>
                         <img src="//img12.360buyimg.com/jrpmobile/jfs/t4639/162/1782623297/60754/98ea03b4/58e60952N7fdb2b85.png?width=200&height=200">
-                        <h4>领128元新手礼包</h4>
+                        <h4 :class="$style.red">领128元新手礼包</h4>
                         <p :class="$style.gray">立即开通</p>
                     </li>
                     <li>
@@ -56,17 +56,21 @@ export default {
             height: 132px;
             margin: 20px auto;
           }
+          border-right: 1px solid #ddd;
         }
         h4 {
           font-size: 26px;
           line-height: 40px;
-          .red {
-            color: #f00;
-          }
+        }
+        .red {
+          color: #f00;
         }
         .gray {
           color: #999;
           font-size: 24px;
+        }
+        p {
+          margin: 6px 6px 6px 0;
         }
         ul {
           width: 100%;
@@ -74,6 +78,16 @@ export default {
             width: 100%;
             height: 144px;
             padding: 32px 28px;
+            box-sizing: border-box;
+            &:first-child {
+              border-bottom: 1px solid #ddd;
+            }
+            h4 {
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              text-align: left;
+            }
             img {
               width: 80px;
               height: 80px;
