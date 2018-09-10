@@ -1,12 +1,10 @@
 <template lang="html">
     <div>
         <Header/>
-        <HSlider/>
-        <Novice/>
-        <Borrow/>
+        <Mslider/>
+        <Ada/>
         <Money/>
-        <Product/>
-        <Life/>
+        <Adb/>
         <Footer/>
         <Nvbar/>
     </div>
@@ -16,23 +14,19 @@
 import Header from "../public/header.vue"
 import Footer from "../public/footer.vue"
 import Nvbar from "../public/navbar.vue"
-import HSlider from "./hslider.vue"
-import Novice from "./novice.vue"
-import Borrow from "./borrow.vue"
+import Mslider from "./mslider.vue"
+import Ada from "./ada.vue"
 import Money from "./money.vue"
-import Product from "./product.vue"
-import Life from "./life.vue"
+import Adb from "./adb.vue"
 export default {
     components: {
         Header,
-        HSlider,
-        Novice,
-        Borrow,
-        Money,
-        Product,
-        Life,
         Footer,
         Nvbar,
+        Mslider,
+        Ada,
+        Money,
+        Adb,
     },
 }
 </script>
