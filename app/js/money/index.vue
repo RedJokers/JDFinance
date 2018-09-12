@@ -5,7 +5,9 @@
         <Ada/>
         <Money/>
         <Adb/>
-        <Footer/>
+        <Finance/>
+        <Adc/>
+        <Footer cname="cname"/>
         <Nvbar/>
     </div>
 </template>
@@ -18,6 +20,8 @@ import Mslider from "./mslider.vue"
 import Ada from "./ada.vue"
 import Money from "./money.vue"
 import Adb from "./adb.vue"
+import Finance from "./finance.vue"
+import Adc from "./adc.vue"
 export default {
     components: {
         Header,
@@ -27,10 +31,16 @@ export default {
         Ada,
         Money,
         Adb,
+        Finance,
+        Adc,
     },
 }
 </script>
 
-<style lang="scss" module>
-
+<style lang="scss">
+    .cname {
+        li:first-child {
+            display: none;
+        }
+    }
 </style>

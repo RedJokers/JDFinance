@@ -60,7 +60,8 @@
   },
   "eslintIgnore": [
     "node_modules",
-    "webpack.config.js"
+    "webpack.config.js",
+    "package.json"
   ],
   "homepage": "https://gitlab.com/imooc/vuejs#README",
   "dependencies": {
