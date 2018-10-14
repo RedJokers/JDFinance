@@ -31,10 +31,10 @@ export default {
 </script>
 
 <style lang="scss">
-  .swiper-container {
-    height: 72px;
-    overflow: hidden;
-  }
+//   .swiper-container {
+//     height: 72px;
+//     overflow: hidden;
+//   }
 </style>
 
 

@@ -1,6 +1,6 @@
 <template>
     <Panel :class="$style.panel" title="白条轮播图" style="margin-top:120px;">
-        <Slider :items="items"/>
+        <Slider :items="items" :cname="$style.slider"/>
     </Panel>
 </template>
 
@@ -28,6 +28,12 @@ export default {
 
 <style lang="scss" module>
 @import "../../css/element.scss";
+.slider {
+    margin-top: 120px;
+    img {
+        width: 100%;
+    }
+}
   .panel {
     @include panel;
     margin-top: 120px;

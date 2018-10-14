@@ -1,5 +1,5 @@
 <template>
-    <Panel :class="$style.panel" title="每日签到">
+    <Panel :class="$style.panel" title="每日签到" style="margin-top:120px;">
         <section :class="$style.content">
             <p>不抢白不抢</p>
             <img src="//img12.360buyimg.com/jrpmobile/jfs/t3184/283/6032981290/37056/fa30c674/589bd5a2Nabdbbbd9.jpg?width=376&height=160">
